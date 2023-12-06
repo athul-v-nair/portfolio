@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500&family=Nova+Square&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&display=swap');
+
+body{
+    scroll-behavior: smooth;
+    margin: 0;
+    
+}
+.maincontainer{
+    width: 90%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    height: 90%;
+    margin: auto;
+    
+}
+.leftcolumn{
+    flex: 1;
+    margin-left:  10px;
+    margin-top: 10px;
+    background-color: rgb(31, 30, 30);
+}
+.rightcolumn{
+    flex:2;
+    height: 100%;
+
+}
+.image img{
+    display: block;
+    width: 230px;
+    height: 230px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.education{
+    padding: 15px;
+    margin-top: -10px;
+    align-items: center;
+    line-height: 10px;
+}
+.education h2{
+    font-family: 'Merriweather', serif;
+    color: white;
+    font-weight: 800;
+    padding-left: 15px;
+}
+.education h3{
+    color:white;
+    font-family: 'Nova Square', sans-serif;
+    font-weight: 700;
+    padding-left: 20px;
+    font-size: medium;
+    line-height: 15px;
+}
+.education h5{
+    color:white;
+    font-family: 'Nova Square', sans-serif;
+    font-weight: 100;
+    padding-left: 20px;
+    font-size: small;
+    line-height: 7px;
+}
+.references{
+    padding: 15px;
+    margin-top: -10px;
+    align-items: center;
+    /* line-height: 10px;    */
+}
+.references h2{
+    font-family: 'Merriweather', serif;
+    color: white;
+    font-weight: 800;
+    padding-left: 15px;
+}
+.references h3{
+    color:white;
+    font-family: 'Nova Square', sans-serif;
+    font-weight: 700;
+    padding-left: 20px;
+    font-size: medium;
+    line-height: 30px;
+}
+.references p{
+    color:white;
+    font-family: 'Nova Square', sans-serif;
+    font-weight: 100;
+    padding-left: 20px;
+    font-size: small;
+    line-height: 30px;
+}
+.leftcolumn hr{
+    border-top: 1px solid rgb(255, 191, 0);
+}
+.contact{
+    padding: 10px;
+    margin-top: -20px;
+    align-items: center;
+    
+}
+.contactdetails {
+    display: flex;
+}
+.contact h2{
+    font-family: 'Merriweather', serif;
+    color: white;
+    font-weight: 800;
+    padding-left: 15px;
+}
+.contact ul{
+    padding-top: 10px;
+    color:white;
+    font-family: 'Nova Square', sans-serif;
+    font-weight: 100;
+    padding-left: 20px;
+    list-style-type: none;   
+    line-height: 35px;
+    font-size: small;
+}
+.box{
+    height: 36px;
+    width: 60px;
+    background-color: rgb(255, 191, 0);
+    float: left;
+    margin-right: 10px;
+    margin-left: -50px;
+}
+.contacttitle{
+    color:white;
+    font-family: 'Merriweather', serif;
+    font-weight: 100;
+    padding-left: 20px;
+    list-style-type: none;   
+    line-height: 35px;
+    font-size: small;
+    background-color: rgb(73, 73, 73);
+    margin-bottom: 5px;
+}
+.contactitem{
+    margin-left: 60px;
+    margin-bottom: 10px;
+}
+.profile{
+    background-color: rgb(255, 191, 0);
+    text-transform: uppercase;
+    font-family: 'Merriweather', serif;
+    
+    text-align: left;
+    padding-left: 30px;
+    height: 170px;
+    
+}
+.profile h1{
+    font-weight: 300;
+    word-spacing: 30px;
+    letter-spacing: 10px;
+    padding-top: 30px;
+}
+.profile h3{
+    text-transform: capitalize;
+    font-weight: 300;
+    letter-spacing: 5px;
+    word-spacing: 20px;
+}
+
+.aboutme{
+    padding-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.aboutme h2{
+    font-family: 'Merriweather', serif;
+}
+.aboutme p{
+    font-family: 'Nova Square', sans-serif;
+    font-weight: 100;
+    font-size: small;
+}
+.project{
+    padding-left: 30px;
+    font-family: 'Merriweather', serif;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+.projectsection{
+    display: flex;
+    grid-template-columns: 1fr 2fr; 
+    font-family: 'Nova Square', sans-serif;
+    font-weight: 100;
+    font-size: small;
+    position: relative;
+}
+
+.projectleft{
+    flex: 1;
+    line-height: 20px;
+    
+}
+.aqi{
+    padding-top: 20px;
+}
+.ser{
+    padding-top: 40px;
+}
+.projectright{
+    flex:2;
+}
+.skill{
+    padding-left: 30px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    margin-top: 30px;
+}
+.skill h2{
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+}
+.skill ul{
+    font-family: 'Nova Square', sans-serif;
+    list-style-type: none;
+    margin: 20px;
+}
+.skill li{
+    padding: 10px;
+}
+.border{
+    background-color: rgb(215, 215, 215); 
+    width: 80%; 
+    border-radius: 15px; 
+    margin-top: 10px;
+}
+.progress{
+    height: 2px;
+    background-color: rgb(59, 59, 59); 
+    padding: 1%; 
+    text-align: right; 
+    font-size: 20px; 
+    border-radius: 15px;
+}
+.html{
+    width: 90%;
+}
+.css{
+    width: 90%;
+}
+.javascript{
+    width: 75%;
+}
+.java{
+    width: 80%;
+}
+.c{
+    width: 85%;
+}
+.python{
+    width: 65%;
+}
+
+.interests{
+    padding-left: 30px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+.interests h2{
+    font-family: 'Merriweather', serif;
+    font-weight: bolder;
+}
+.interests ul{
+    font-family: 'Nova Square', sans-serif;
+    list-style-type: none;
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 25px;
+    
+}
+.interests li{
+    padding: 10px;
+}
+.fa{
+    margin-right: 10px;
+}
+.rightcolumn hr{
+    border-top: 1px solid rgb(124, 124, 124);
+}
+
+/* navbar */
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.mainnavcontainer{
+    display: flex;
+    width: 90%;
+    align-content: center;
+    align-items: center;
+    height: 90%;
+    margin: auto;
+}
+.logocontainer{
+    float: left;
+}
+.logocontainer h1{
+    padding-top: 10px;
+    padding-left: 20px;
+    margin-top: 10px;
+    font-family: 'Lobster', sans-serif;
+    font-weight: 700;
+}
+.navbarcontainer{
+    float: right;
+    margin: auto;
+    overflow: hidden;
+    margin: auto;
+}
+.navbarcontainer a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-left: 10px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    text-align: end;
+}
+.navbarcontainer a.active{
+    color: rgb(255, 191, 0);;
+}
+.navbarcontainer a:hover{
+    color: rgb(255, 191, 0);;
+}
